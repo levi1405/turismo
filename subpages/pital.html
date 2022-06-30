@@ -61,7 +61,11 @@
           width: 80%;
           margin: auto;
         }
-    
+        @media screen and (max-width:800px){
+          h6{
+            font-size: 10px;
+          } 
+        }
 
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
@@ -94,7 +98,7 @@
 <body>
     <header>
       <hr style="color: rgb(33, 26, 26);">
-      <h6 style="font-family: georgia; position: absolute; -webkit-text-stroke: 0.1vw rgb(25, 0, 255); color: rgb(255, 255, 255) ; text-shadow: 0 0 5px rgb(0, 0, 0);">
+      <h6 style="font-family: georgia; position: absolute; z-index: 3; -webkit-text-stroke: 0.1vw rgb(25, 0, 255); color: rgb(255, 255, 255) ; text-shadow: 0 0 5px rgb(0, 0, 0);">
           <img src="img/3.jpg" width="2%" class="rounded-circle" >GERSON ADONAY MELARA CAMPOS</h6>
       <h1 style="font-family: Georgia; color: brown;"><strong>!! TOUR EL PITAL !!</strong></<h1>
 
