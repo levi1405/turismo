@@ -1,0 +1,335 @@
+.logo{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.349);
+  }
+  .logo img{
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    margin-bottom: -4.5%;
+  }
+header{
+    background: url(../img/Chorrosbackgroud.jpg);
+    background-size: 100%;
+}
+nav{
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.692),rgba(0, 0, 0, 0.24));
+    font-weight: bold;
+    font-family: 'Arima', cursive;
+}
+nav a{
+    font-size: 1.5em;
+}
+.nav-item{
+    list-style: none;
+}
+section{
+    background: rgba(0, 0, 0, 0.493);
+}
+.container-fluid{
+    font-size: 13px;
+    top: 0; 
+    color: #ab37b3;
+}
+#titulo{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+} 
+h1{
+    position: relative;
+    z-index: 3;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    -webkit-text-stroke: 0.001vw aliceblue;
+    margin-left: 3%;
+}
+h4{
+    border: 1px solid #000;
+    width: 375px ; height: 375px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align:10px ;
+    width:75%;
+    margin-left: 25%;
+    width: 75%;
+    color: #09174d;
+    text-shadow: 0 0 5px white;
+
+}  
+#cuadro{
+    position: relative;
+    z-index: 1;
+    border: 1px solid #000;
+    width: 375px ; height: 225px;
+    background: #00aa55cb;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-align:30px ;
+    width:75%;
+    margin-left: 2%;
+    width: 75%;
+    color: #183390;
+    padding: 1%;
+    border-radius: 20px;
+}
+#cuadro1{
+    position: relative;
+    z-index: 1;
+    border: 1px solid #000;
+    width: 425px ; height: 490px;
+    background: #00aa55b4;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-align:10px ;
+    width:80%;
+    margin-left: 2%;
+    width: 75%;
+    color: #183390;
+    padding: 1%;
+    border-radius: 20px;
+}
+#cuadro2{
+    position: relative;
+    z-index: 1;
+    border: 1px solid #000;
+    width: 425px ; height: 425px;
+    background: #00aa55b4;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-align:10px ;
+    width:80%;
+    margin-left: 2%;
+    width: 75%;
+    color: #183390;
+    padding: 1%;
+    border-radius: 20px;
+}
+#cuadro3{
+    position: relative;
+    z-index: 1;
+    border: 1px solid #000;
+    width: 300px ; height: 330px;
+    background: #00aa55b4;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align:10px ;
+    width:80%;
+    margin-left: 2%;
+    width: 75%;
+    color: #183390;
+    padding: 1%;
+    border-radius: 20px;
+}
+#cuadro4{
+    position: relative;
+    z-index: 1;
+    border: 1px solid #000;
+    width: 375px ; height: 225px;
+    background: #00aa55b4;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-align:30px ;
+    width:75%;
+    margin-left: 2%;
+    width: 75%;
+    color: #183390;
+    padding: 1%;
+    border-radius: 20px;
+}
+.img{
+ border-radius: 20%;
+ position: relative;
+ z-index: 2;
+ right: 3%;
+ float: right;
+}
+.img1{
+    position: relative;
+    z-index: 2;
+    left: 0.5%;
+    border-radius: 20%;
+    float: left;
+}
+#tabla{
+    height: 300px; 
+    width: 35%;
+    float: right;
+    position: relative;
+    right: 10%;
+    vertical-align: middle;
+}
+
+body {
+        background: url(https://lapagina.com.sv/wp-content/uploads/2021/12/Parque-Los-Chorros.jpeg);
+         background-size: cover;
+         background-attachment: fixed;
+    
+}
+.content{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .texto{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    }
+    nav li a:hover,.dropdown-menu li a:hover{
+        text-decoration: underline 3px blue;
+        text-shadow: 0 0 4px orange;
+      }
+@media screen and ( max-width: 1000px){
+    .articulo{
+        width: 95%;
+        height: 200px;
+        border: 1px solid #000000;
+        margin: 0.5%;
+        color: blueviolet;
+     
+      }
+      .container-fluid{
+        font-size: 13px;
+        top: 0; 
+        color: #ab37b3;
+    }
+    #titulo{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;
+    } 
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        color: rgb(255, 21, 0,);
+    }
+    h4{
+        border: 1px solid #000;
+        width: 375px ; height: 400px;
+        background: #00aa55b4;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-align:10px ;
+        width:75%;
+        margin-left: 25%;
+        width: 90%;
+
+        color: #000000;
+        text-shadow: 0 0 5px white;
+    
+    }  
+    #cuadro{
+        border: 1px solid #000;
+        width: 375px ; height: 335px;
+        background: #00aa55b4;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-align:10px ;
+        width:75%;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 20px;
+        color: #000000;
+        padding: 1%;
+    }
+    #cuadro1{
+        border: 1px solid #000;
+        width: 425px ; height: 640px;
+        background: #00aa55b4;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-align:10px ;
+        width:70%;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 20px;
+        color: #000000;
+    }
+    #cuadro2{
+        border: 1px solid #000;
+        width: 425px ; height: 525px;
+        background: #00aa55b4;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-align:10px ;
+        width:70%;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 20px;
+        color: #000000;
+        padding: 1%;
+    }
+    #cuadro3{
+        border: 1px solid #000;
+        width: 325px ; height: 470px;
+        background: #00aa55b4;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-align:10px ;
+        width:75%;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 20px;
+        color: #000000;
+        padding: 1%;
+    }
+    #cuadro4{
+        border: 1px solid #000;
+        width: 375px ; height: 328px;
+        background: #00aa55b4;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        text-align:10px ;
+        width:65%;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 20px;
+        color: #000000;
+        padding: 1%;
+    }
+    #tabla{
+        height: 200px; 
+        width: 300px;
+        float: right;
+    
+    }
+    #img{
+     border-radius: 10%;
+     float: right;
+    }
+    #img1{
+        border-radius: 20%;
+        float: left;
+    }
+    .img2{
+        height: 200px; 
+        width: 615px;
+    }
+    body {
+    background: url(https://www.dhresource.com/0x0/f2/albu/g6/M01/1D/04/rBVaR1vf7r-ABH1eAADxvU4iQg8016.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+}
+@media screen and (max-width: 991px){
+    .logo{
+      display: none;
+    }
+  }
+@media screen and (max-width:595px){
+    .texto h3{
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:454px){
+    .texto h3{
+      display: none;
+    }
+  }
