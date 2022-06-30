@@ -323,6 +323,11 @@ body {
       display: none;
     }
   }
+  @media screen and (max-width:800px){
+    h6{
+      font-size: 10px;
+    } 
+  }
 @media screen and (max-width:595px){
     .texto h3{
       font-size: 15px;
